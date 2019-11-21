@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Tspecials = () => {
+const Ylite = () => {
     return (
         <section id="pack" class="packages">
         {/* <!--packages start--> */}
           <div class="container">
             <div class="text-center">
               <h2>
-                2020 Special Travels 
+                Yellow Lite 
               </h2>
               <p>
                 Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.  
@@ -305,4 +305,4 @@ const Tspecials = () => {
     )
 }
 
-export default Tspecials
+export default Ylite
