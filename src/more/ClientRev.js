@@ -2,10 +2,10 @@ import React from 'react'
 
 const ClientRev = () => {
     return (
-         <section   class="testemonial">
+         <section   className="testemonial">
          {/* <!-- testimonial Start --> */}
-         <div class="container">
-           <div class="gallary-header text-center">
+         <div className="container">
+           <div className="gallary-header text-center">
              <h2>
                How Our Clients Feel
              </h2>
@@ -15,17 +15,17 @@ const ClientRev = () => {
            </div>
            {/* <!--/.gallery-header--> */}
 
-           <div class="owl-carousel owl-theme" id="testemonial-carousel">
-             <div class="home1-testm item">
-               <div class="home1-testm-single text-center">
-                 <div class="home1-testm-img">
+           <div className="owl-carousel owl-theme" id="testemonial-carousel">
+             <div className="home1-testm item">
+               <div className="home1-testm-single text-center">
+                 <div className="home1-testm-img">
                    <img src="assets/images/client/testimonial1.jpg" 
                          alt="img"/>
                  </div>
                  {/* <!-/.home1-testm-img--> */}
-                 <div class="home1-testm-txt">
-                   <span class="icon section-icon">
-                     <i class="fa fa-quote-left" aria-hidden="true"></i>
+                 <div className="home1-testm-txt">
+                   <span className="icon section-icon">
+                     <i className="fa fa-quote-left" aria-hidden="true"></i>
                    </span>
                    <p>
                      When I plan a trip, the first people to contact is 
@@ -45,16 +45,16 @@ const ClientRev = () => {
              </div>
              {/* <!--/.item--> */}
 
-             <div class="home1-testm item">
-               <div class="home1-testm-single text-center">
-                 <div class="home1-testm-img">
+             <div className="home1-testm item">
+               <div className="home1-testm-single text-center">
+                 <div className="home1-testm-img">
                    <img src="assets/images/client/testimonial2.jpg" 
                          alt="img"/>
                  </div>
                  {/* <!--/.home1-testm-img--> */}
-                 <div class="home1-testm-txt">
-                   <span class="icon section-icon">
-                     <i class="fa fa-quote-left" aria-hidden="true"></i>
+                 <div className="home1-testm-txt">
+                   <span className="icon section-icon">
+                     <i className="fa fa-quote-left" aria-hidden="true"></i>
                    </span>
                    <p>
                      Yellow Hat Travels is an amazing company that curates 
@@ -75,16 +75,16 @@ const ClientRev = () => {
              </div>
              {/* <!--/.item--> */}
 
-             <div class="home1-testm item">
-               <div class="home1-testm-single text-center">
-                 <div class="home1-testm-img">
+             <div className="home1-testm item">
+               <div className="home1-testm-single text-center">
+                 <div className="home1-testm-img">
                    <img src="assets/images/client/testimonial1.jpg" 
                          alt="img"/>
                  </div> 
                  {/* <!--/.home1-testm-img--> */}
-                 <div class="home1-testm-txt">
-                   <span class="icon section-icon">
-                     <i class="fa fa-quote-left" aria-hidden="true"></i>
+                 <div className="home1-testm-txt">
+                   <span className="icon section-icon">
+                     <i className="fa fa-quote-left" aria-hidden="true"></i>
                    </span>
                    <p>
                      I have always had a dream to travel abroad... even 
@@ -103,16 +103,16 @@ const ClientRev = () => {
                {/* <!--/.home1-testm-single--> */}
              </div>
              {/* <!--/.item--> */}
-             <div class="home1-testm item">
-               <div class="home1-testm-single text-center">
-                 <div class="home1-testm-img">
+             <div className="home1-testm item">
+               <div className="home1-testm-single text-center">
+                 <div className="home1-testm-img">
                    <img src="assets/images/client/testimonial1.jpg" 
                          alt="img"/>
                  </div>
                  {/* <!--/.home1-testm-img--> */}
-                 <div class="home1-testm-txt">
-                   <span class="icon section-icon">
-                     <i class="fa fa-quote-left" aria-hidden="true"></i>
+                 <div className="home1-testm-txt">
+                   <span className="icon section-icon">
+                     <i className="fa fa-quote-left" aria-hidden="true"></i>
                    </span>
                    <p>
                      My wife and I had never left the country and Sis T held 
@@ -131,16 +131,16 @@ const ClientRev = () => {
                {/* <!--/.home1-testm-single--> */}
              </div>
              {/* <!--/.item--> */}
-             <div class="home1-testm item">
-               <div class="home1-testm-single text-center">
-                 <div class="home1-testm-img">
+             <div className="home1-testm item">
+               <div className="home1-testm-single text-center">
+                 <div className="home1-testm-img">
                    <img src="assets/images/client/testimonial2.jpg" 
                          alt="img"/>
                  </div>
                  {/* <!--/.home1-testm-img--> */}
-                 <div class="home1-testm-txt">
-                   <span class="icon section-icon">
-                     <i class="fa fa-quote-left" aria-hidden="true"></i>
+                 <div className="home1-testm-txt">
+                   <span className="icon section-icon">
+                     <i className="fa fa-quote-left" aria-hidden="true"></i>
                    </span>
                    <p>
                      I am single lady who is full of life - I have always wanted to travel 
@@ -160,16 +160,16 @@ const ClientRev = () => {
                {/* <!--/.home1-testm-single--> */}
              </div>
              {/* <!--/.item--> */}
-             <div class="home1-testm item">
-               <div class="home1-testm-single text-center">
-                 <div class="home1-testm-img">
+             <div className="home1-testm item">
+               <div className="home1-testm-single text-center">
+                 <div className="home1-testm-img">
                    <img src="assets/images/client/testimonial1.jpg" 
                          alt="img"/>
                  </div>
                  {/* <!-/.home1-testm-img--> */}
-                 <div class="home1-testm-txt">
-                   <span class="icon section-icon">
-                     <i class="fa fa-quote-left" aria-hidden="true"></i>
+                 <div className="home1-testm-txt">
+                   <span className="icon section-icon">
+                     <i className="fa fa-quote-left" aria-hidden="true"></i>
                    </span>
                    <p>
                      When you have a trip for the first time out of the country
@@ -189,16 +189,16 @@ const ClientRev = () => {
                {/* <!--/.home1-testm-single--> */}
              </div>
              {/* <!--/.item--> */}
-             <div class="home1-testm item">
-               <div class="home1-testm-single text-center">
-                 <div class="home1-testm-img">
+             <div className="home1-testm item">
+               <div className="home1-testm-single text-center">
+                 <div className="home1-testm-img">
                    <img src="assets/images/client/testimonial1.jpg" 
                          alt="img"/>
                  </div>
                  {/* <!-/.home1-testm-img-> */}
-                 <div class="home1-testm-txt">
-                   <span class="icon section-icon">
-                     <i class="fa fa-quote-left" aria-hidden="true"></i>
+                 <div className="home1-testm-txt">
+                   <span className="icon section-icon">
+                     <i className="fa fa-quote-left" aria-hidden="true"></i>
                    </span>
                    <p>
                      Want a trip that is curated for you and considers your budget, 
@@ -219,16 +219,16 @@ const ClientRev = () => {
              </div>
              {/* <!--/.item--> */}
              
-             {/* <div class="home1-testm item">
-               <div class="home1-testm-single text-center">
-                 <div class="home1-testm-img">
+             {/* <div className="home1-testm item">
+               <div className="home1-testm-single text-center">
+                 <div className="home1-testm-img">
                    <img src="assets/images/client/testimonial2.jpg" 
                          alt="img"/>
                  </div>
                  {/* </.home1-testm-img /}
-               <div class="home1-testm-txt">
-                   <span class="icon section-icon">
-                     <i class="fa fa-quote-left" aria-hidden="true"></i>
+               <div className="home1-testm-txt">
+                   <span className="icon section-icon">
+                     <i className="fa fa-quote-left" aria-hidden="true"></i>
                    </span>
                    <p>
                      Lorem ipsum dolor sit amet, contur adip elit, sed do 
@@ -246,16 +246,16 @@ const ClientRev = () => {
                {/* <!--/.home1-testm-single--> /}
              </div>
              {/* <!--/.item--> }
-             <div class="home1-testm item">
-               <div class="home1-testm-single text-center">
-                 <div class="home1-testm-img">
+             <div className="home1-testm item">
+               <div className="home1-testm-single text-center">
+                 <div className="home1-testm-img">
                    <img src="assets/images/client/testimonial1.jpg" 
                          alt="img"/>
                  </div>
                  {/* <!--/.home1-testm-img--> }
-                 <div class="home1-testm-txt">
-                   <span class="icon section-icon">
-                     <i class="fa fa-quote-left" aria-hidden="true"></i>
+                 <div className="home1-testm-txt">
+                   <span className="icon section-icon">
+                     <i className="fa fa-quote-left" aria-hidden="true"></i>
                    </span>
                    <p>
                      Lorem ipsum dolor sit amet, contur adip elit, sed do mod 
