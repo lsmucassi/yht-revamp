@@ -4,6 +4,8 @@ import './headers/Navbar'
 import Navbar from './headers/Navbar';
 import Foot from './headers/Foot'
 import Banner from './home/Banner'
+import Services from './home/Services'
+import World from './home/World'
 
 class App extends React.Component {
   render() {
@@ -13,214 +15,14 @@ class App extends React.Component {
         <Navbar/>
         
         {/* === HOME BANNER === */}
-        <Banner />
+        <Banner/>
 
-        {/* <!--service start--> */}
-        <section id="service" class="service">
-          <div class="container">
+        {/* === SERVICES === */}
+        <Services/>
 
-            <div class="service-counter text-center">
-
-              <div class="col-md-4 col-sm-4">
-                <div class="single-service-box">
-                  <div class="service-img">
-                    <img src="assets/images/service/s1.png" alt="service-icon" />
-                  </div>
-                  {/* <!--/.service-img--> */}
-                  <div class="service-content">
-                    <h2>
-                      <a href="#">
-                      amazing tour packages
-                      </a>
-                    </h2>
-                    <p>Catered for your personal interest.</p>
-                  </div>
-                  {/* <!--/.service-content--> */}
-                </div>
-                {/* <!--/.single-service-box--> */}
-              </div>
-              {/* <!--/.col--> */}
-
-              <div class="col-md-4 col-sm-4">
-                <div class="single-service-box">
-                  <div class="service-img">
-                    <img src="assets/images/service/s2.png" alt="service-icon" />
-                  </div>
-                  {/* <!--/.service-img--> */}
-                  <div class="service-content">
-                    <h2>
-                      <a href="#">
-                        book top class hotel
-                      </a>
-                    </h2>
-                    <p>The hustle ends here, let us help you out. You worry about the fun.</p>
-                  </div>
-                  {/* <!--/.service-content--> */}
-                </div>
-                {/* <!--/.single-service-box--> */}
-              </div>
-              {/* <!--/.col--> */}
-
-              <div class="col-md-4 col-sm-4">
-                <div class="single-service-box">
-                  <div class="statistics-img">
-                    <img src="assets/images/service/s3.png" alt="service-icon" />
-                  </div>
-                  {/* <!--/.service-img--> */}
-                  <div class="service-content">
-
-                    <h2>
-                      <a href="#">
-                        online flight booking
-                      </a>
-                    </h2>
-                    <p>Everything in one place</p>
-                  </div>
-                  {/* <!--/.service-content--> */}
-                </div>
-                {/* <!--/.single-service-box--> */}
-              </div>
-              {/* <!--/.col--> */}
-
-            </div>
-            {/* <!--/.statistics-counter-->	 */}
-          </div>
-          {/* <!--/.container--> */}
-
-        </section>
-        {/* <!--/.service--> */}
-          {/* <!--service end--> */}
-
-        {/* <!--galley start--> */}
-        <section id="gallery" class="gallery">
-          <div class="container">
-            <div class="gallery-details">
-              <div class="gallary-header text-center">
-                <h2>
-                  world destination
-                </h2>
-                <p>
-                  Yellow Hat Travels offers travel information on a 
-                  wide range of destinations. Learn about your 
-                  destination today and contact us for more information.
-                </p>
-              </div>
-              {/* <!--/.gallery-header--> */}
-              <div class="gallery-box">
-                <div class="gallery-content">
-                    <div class="filtr-container">
-                      <div class="row">
-
-                        <div class="col-md-6">
-                          <div class="filtr-item">
-                          <img src="assets/images/yellhat-img/europe/alex-vasey-3lxrM5yvkcI-unsplash.jpg" 
-                                alt="portfolio image"/>
-                          <div class="item-title">
-                            <a href="#">
-                              Europe
-                            </a>
-                            <p><span>20 tours</span><span>15 places</span></p>
-                          </div>
-                          {/* <!-- /.item-title --> */}
-                        </div>
-                        {/* <!-- /.filtr-item --> */}
-                        </div>
-                        {/* <!-- /.col --> */}
-
-                        <div class="col-md-6">
-                          <div class="filtr-item">
-                          <img src="assets/images/yellhat-img/africa/harshil-gudka-kfxEUCTUeyg-unsplash.jpg" alt="portfolio image"/>
-                          <div class="item-title">
-                            <a href="#">
-                              Africa
-                            </a>
-                            <p><span>12 tours</span><span>9 places</span></p>
-                          </div> 
-                          {/* <!-- /.item-title--> */}
-                        </div>
-                        {/* <!-- /.filtr-item --> */}
-                        </div>
-                        {/* <!-- /.col --> */}
-
-                        <div class="col-md-7">
-                          <div class="filtr-item">
-                          <img src="assets/images/yellhat-img/asia/jason-cooper-iEJVyyevw-U-unsplash.jpg" alt="portfolio image"/>
-                          <div class="item-title">
-                            <a href="#">
-                              Asia
-                            </a>
-                            <p><span>25 tours</span><span>10 places</span></p>
-                          </div>
-                          {/* <!-- /.item-title --> */}
-                        </div>
-                        {/* <!-- /.filtr-item --> */}
-                        </div>
-                        {/* <!-- /.col --> */}
-
-                        <div class="col-md-4">
-                          <div class="filtr-item">
-                          <img src="assets/images/yellhat-img/north-america/touann-gatouillat-vergos-dSBJv66Yjlk-unsplash.jpg" 
-                                alt="portfolio image"/>
-                          <div class="item-title">
-                            <a href="#">
-                              North America
-                            </a>
-                            <p><span>18 tours</span><span>9 places</span></p>
-                          </div> 
-                          {/* <!-- /.item-title--> */}
-                        </div>
-                        {/* <!-- /.filtr-item --> */}
-                        </div>
-                        {/* <!-- /.col --> */}
-
-                        <div class="col-md-5">
-                          <div class="filtr-item">
-                          <img src="assets/images/yellhat-img/south-america/arto-marttinen-6Wt0kG2zK4A-unsplash.jpg" 
-                                alt="portfolio image"/>
-                          <div class="item-title">
-                            <a href="#">
-                              South America
-                            </a>
-                            <p><span>14 tours</span><span>12 places</span></p>
-                          </div> 
-                          {/* <!-- /.item-title--> */}
-                        </div>
-                        {/* <!-- /.filtr-item --> */}
-                        </div>
-                        {/* <!-- /.col --> */}
-
-                        {/* <!-- <div class="col-md-8">
-                          <div class="filtr-item">
-                          <img src="assets/images/gallary/g6.jpg" alt="portfolio image"/>
-                          <div class="item-title">
-                            <a href="#">
-                              turkey
-                            </a>
-                            <p><span>14 tours</span><span>6 places</span></p> -->
-                          <!-- </div>  -->
-                          <!-- /.item-title-->
-                        <!-- </div> -->
-                        <!-- /.filtr-item -->
-                        <!-- </div> -->
-                        <!-- /.col --> */}
-
-                      </div>
-                      {/* <!-- /.row --> */}
-
-                    </div>
-                    {/* <!-- /.filtr-container--> */}
-                </div>
-                {/* <!-- /.gallery-content --> */}
-              </div>
-              {/* <!--/.galley-box--> */}
-            </div>
-            {/* <!--/.gallery-details--> */}
-          </div>
-          {/* <!--/.container--> */}
-
-        </section>
-        {/* <!--/.gallery--> */}
-        {/* <!--gallery end--> */}
+        {/* === WORLD DESTINATIONS === */}
+        <World/>
+        
 
         {/* <!--discount-offer start--> */}
         {/* <section class="discount-offer">
