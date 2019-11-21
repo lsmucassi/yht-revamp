@@ -1,112 +1,19 @@
 import React from 'react';
 import './App.css';
+import './headers/Navbar'
+import Navbar from './headers/Navbar';
+import Foot from './headers/Foot'
+import Banner from './home/Banner'
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-      	<header class="top-area">
-          <div class="header-area">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-2">
-                  <div class="logo">
-                    <a href="index.html">
-                      Yellow <span>Hat</span> Travels
-                    </a>
-                  </div>
-                  {/* <!-- /.logo--> */}
-                </div>
-                {/* <!-- /.col--> */}
-                <div class="col-sm-10">
-                  <div class="main-menu">
-                  
-                    {/* <!-- Brand and toggle get grouped for better mobile display --> */}
-                    <div class="navbar-header">
-                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <i class="fa fa-bars"></i>
-                      </button>
-                      {/* <!-- / button--> */}
-                    </div>
-                    {/* <!-- /.navbar-header--> */}
-                    <div class="collapse navbar-collapse">		  
-                      <ul class="nav navbar-nav navbar-right">
-                        <li class="smooth-menu"><a href="#home">Home</a></li>
-                        <li class="smooth-menu"><a href="#gallery">Destination</a></li>
-                        <li class="smooth-menu"><a href="#pack">Yellow Lite </a></li>
-                        <li class="smooth-menu"><a href="#s-pack">2020 Specials </a></li>
-                        <li class="smooth-menu"><a href="#blog">blog</a></li>
-                        <li>
-                          <button class="book-btn">log in
-                          </button>
-                        </li>
-                        {/* <!--/.project-btn-->  */}
-                      </ul>
-                    </div>
-                    {/* <!-- /.navbar-collapse --> */}
-                  </div>
-                  {/* <!-- /.main-menu--> */}
-                </div>
-                {/* <!-- /.col--> */}
-              </div>
-              {/* <!-- /.row --> */}
-              <div class="home-border"></div>
-              {/* <!-- /.home-border--> */}
-            </div>
-            {/* <!-- /.container--> */}
-          </div>
-          {/* <!-- /.header-area --> */}
-    		</header>
-        {/* <!-- /.top-area--> */}
-        {/* <!-- main-menu End --> */}
-
-        {/* <!--about-us start --> */}
-        <section id="home" class="about-us">
-          <div class="container">
-            <div class="about-us-content">
-              <div class="row">
-                <div class="col-sm-12">
-                  <div class="single-about-us">
-                    <div class="about-us-txt">
-                      <h2>
-                        Explore.
-                        {/* <br/> */}
-                        Dream.
-                        
-                        {/* <br/> */}
-                        Discover. 
-                        <div class="about-btn">
-                        <button onclick="window.location.href='#gallery';" 
-                            class="about-view smooth-menu">
-                          explore now
-                        </button>
-                      </div>
-                      </h2>
-                      
-                      {/* <!--/.about-btn--> */}
-                    </div>
-                    {/* <!--/.about-us-txt--> */}
-                  </div>
-                  {/* <!--/.single-about-us--> */}
-                </div>
-                {/* <!--/.col--> */}
-                <div class="col-sm-0">
-                  <div class="single-about-us">
-                    
-                  </div>
-                  {/* <!--/.single-about-us--> */}
-                </div>
-                {/* <!--/.col--> */}
-              </div>
-              {/* <!--/.row--> */}
-            </div>
-            {/* <!--/.about-us-content--> */}
-          </div>
-          {/* <!--/.container--> */}
-
-        </section>
-        {/* <!--/.about-us-->
-        <!--about-us end --> */}
+        {/* === NAVBAR === */}
+        <Navbar/>
+        
+        {/* === HOME BANNER === */}
+        <Banner />
 
         {/* <!--service start--> */}
         <section id="service" class="service">
@@ -1227,107 +1134,7 @@ class App extends React.Component {
 
         </section>
         {/* <!--subscribe end--> */}
-
-
-        {/* <!-- footer-copyright start --> */}
-        <footer  class="footer-copyright">
-          <div class="container">
-            <div class="footer-content">
-              <div class="row">
-
-                <div class="col-sm-3">
-                  <div class="single-footer-item">
-                    <div class="footer-logo">
-                      <a href="index.html">
-                        Yellow <span>Hat</span> Travels
-                      </a>
-                      <p>
-                        best travel agency
-                      </p>
-                    </div>
-                  </div>
-                  {/* <!--/.single-footer-item--> */}
-                </div>
-                {/* <!--/.col--> */}
-
-                <div class="col-sm-3">
-                  <div class="single-footer-item">
-                    <h2>link</h2>
-                    <div class="single-footer-txt">
-                      <p><a href="#">home</a></p>
-                      <p><a href="#">destination</a></p>
-                      <p><a href="#">spacial packages</a></p>
-                      <p><a href="#">special offers</a></p>
-                      <p><a href="#">blog</a></p>
-                      <p><a href="#">contacts</a></p>
-                    </div>
-                    {/* <!--/.single-footer-txt--> */}
-                  </div>
-                  {/* <!--/.single-footer-item--> */}
-
-                </div>
-                {/* <!--/.col--> */}
-
-                <div class="col-sm-3">
-                  <div class="single-footer-item">
-                    <h2>popular destination</h2>
-                    <div class="single-footer-txt">
-                      <p><a href="#">china</a></p>
-                      <p><a href="#">venezuela</a></p>
-                      <p><a href="#">brazil</a></p>
-                      <p><a href="#">australia</a></p>
-                      <p><a href="#">london</a></p>
-                    </div>
-                    {/* <!--/.single-footer-txt--> */}
-                  </div>
-                  {/* <!--/.single-footer-item--> */}
-                </div>
-                {/* <!--/.col--> */}
-
-                <div class="col-sm-3">
-                  <div class="single-footer-item text-center">
-                    <h2 class="text-left">contacts</h2>
-                    <div class="single-footer-txt text-left">
-                      <p>+27 (0) 76 522 1408</p>
-                      <p class="foot-email"><a href="#">info@yellowhattravels.com</a></p>
-                      <p>14 Augrabies Street,</p>
-                      <p>Mookloof Ridge</p>
-                      <p>Pretoria</p>
-                      <p>South Africa</p>
-                    </div>
-                    {/* <!--/.single-footer-txt--> */}
-                  </div>
-                  {/* <!--/.single-footer-item--> */}
-                </div>
-                {/* <!--/.col--> */}
-
-              </div>
-              {/* <!--/.row--> */}
-
-            </div>
-            {/* <!--/.footer-content--> */}
-            <hr/>
-            <div class="foot-icons ">
-              <ul class="footer-social-links list-inline list-unstyled">
-                        <li><a href="#" target="_blank" class="foot-icon-bg-1"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://twitter.com/YellowHatTravel?s=08" target="_blank" class="foot-icon-bg-2"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://instagram.com/yellowhattravels?igshid=2pm8zefmv5po" target="_blank" class="foot-icon-bg-3"><i class="fa fa-instagram"></i></a></li>
-                  </ul>
-                  <p>&copy; 2019 <a href="https://www.yellowhattravels.co.za">Yellow Hat Travels</a>. All Right Reserved</p>
-
-                </div>
-                {/* <!--/.foot-icons--> */}
-            <div id="scroll-Top">
-              <i class="fa fa-angle-double-up return-to-top" id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
-            </div>
-            {/* <!--/.scroll-Top--> */}
-          </div>
-          {/* <!-- /.container--> */}
-
-        </footer>
-        {/* <!-- /.footer-copyright--> */}
-        {/* <!-- footer-copyright end --> */}
-
+        <Foot/>
 
       </div>
     );
