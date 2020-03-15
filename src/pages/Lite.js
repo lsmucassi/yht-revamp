@@ -1,9 +1,23 @@
 import React from 'react'
 
-const Ylite = () => {
+const Lite = () => {
     return (
+      <>
+      <section id="subs" className="subscribe">
+        {/* <!--subscribe start--> */}
+          <div className="container">
+            <div className="subscribe-title text-center">
+              {/* <h2>
+                Join our Subscribers List to Get Regular Update
+              </h2> */}
+           
+            </div>
+           
+          </div>
+          {/* <!--subscribe end--> */}
+        </section>
         <section id="pack" className="packages">
-        {/* <!--packages start--> */}
+        {/* LITE PACKAGES*/}
           <div className="container">
             <div className="text-center">
               <h2>
@@ -13,7 +27,6 @@ const Ylite = () => {
                 Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.  
               </p>
             </div>
-            {/* <!--/.gallery-header--> */}
             <div className="packages-content">
               <div className="row">
 
@@ -37,7 +50,6 @@ const Ylite = () => {
                           <i className="fa fa-angle-right"></i>  food facilities
                         </p>
                       </div>
-                      {/* <!--/.packages-para--> */}
                       <div className="packages-review">
                         <p>
                           <i className="fa fa-star"></i>
@@ -48,21 +60,14 @@ const Ylite = () => {
                           <span>2544 review</span>
                         </p>
                       </div>
-                      {/* <!--/.packages-review--> */}
                       <div className="about-btn">
                         <button  className="about-view packages-btn">
                           book now
                         </button>
                       </div>
-                      {/* <!--/.about-btn--> */}
                     </div>
-                    {/* <!--/.single-package-item-txt--> */}
                   </div>
-                  {/* <!--/.single-package-item--> */}
-
                 </div>
-                {/* <!--/.col--> */}
-
                 <div className="col-md-4 col-sm-6">
                   <div className="single-package-item">
                     <img src="assets/images/packages/p2.jpg" 
@@ -83,7 +88,6 @@ const Ylite = () => {
                           <i className="fa fa-angle-right"></i>  food facilities
                         </p>
                       </div>
-                      {/* <!--/.packages-para--> */}
                       <div className="packages-review">
                         <p>
                           <i className="fa fa-star"></i>
@@ -94,21 +98,14 @@ const Ylite = () => {
                           <span>2544 review</span>
                         </p>
                       </div>
-                      {/* <!--/.packages-review--> */}
                       <div className="about-btn">
                         <button  className="about-view packages-btn">
                           book now
                         </button>
                       </div>
-                      {/* <!--/.about-btn--> */}
                     </div>
-                    {/* <!--/.single-package-item-txt--> */}
                   </div>
-                  {/* <!--/.single-package-item--> */}
-
                 </div>
-                {/* <!--/.col--> */}
-                
                 <div className="col-md-4 col-sm-6">
                   <div className="single-package-item">
                     <img src="assets/images/packages/p3.jpg" 
@@ -129,7 +126,6 @@ const Ylite = () => {
                           <i className="fa fa-angle-right"></i>  food facilities
                         </p>
                       </div>
-                      {/* <!--/.packages-para--> */}
                       <div className="packages-review">
                         <p>
                           <i className="fa fa-star"></i>
@@ -140,21 +136,14 @@ const Ylite = () => {
                           <span>2544 review</span>
                         </p>
                       </div>
-                      {/* <!--/.packages-review--> */}
                       <div className="about-btn">
                         <button  className="about-view packages-btn">
                           book now
                         </button>
                       </div>
-                      {/* <!--/.about-btn--> */}
                     </div>
-                    {/* <!--/.single-package-item-txt--> */}
                   </div>
-                  {/* <!--/.single-package-item--> */}
-
                 </div>
-                {/* <!--/.col--> */}
-                
                 <div className="col-md-4 col-sm-6">
                   <div className="single-package-item">
                     <img src="assets/images/packages/p4.jpg" 
@@ -175,7 +164,6 @@ const Ylite = () => {
                           <i className="fa fa-angle-right"></i>  food facilities
                         </p>
                       </div>
-                      {/* <!--/.packages-para--> */}
                       <div className="packages-review">
                         <p>
                           <i className="fa fa-star"></i>
@@ -186,21 +174,14 @@ const Ylite = () => {
                           <span>2544 review</span>
                         </p>
                       </div>
-                      {/* <!--/.packages-review--> */}
                       <div className="about-btn">
                         <button  className="about-view packages-btn">
                           book now
                         </button>
                       </div>
-                      {/* <!--/.about-btn--> */}
                     </div>
-                    {/* <!--/.single-package-item-txt--> */}
                   </div>
-                  {/* <!--/.single-package-item--> */}
-
                 </div>
-                {/* <!--/.col--> */}
-                
                 <div className="col-md-4 col-sm-6">
                   <div className="single-package-item">
                     <img src="assets/images/packages/p5.jpg" 
@@ -221,7 +202,6 @@ const Ylite = () => {
                           <i className="fa fa-angle-right"></i>  food facilities
                         </p>
                       </div>
-                      {/* <!--/.packages-para--> */}
                       <div className="packages-review">
                         <p>
                           <i className="fa fa-star"></i>
@@ -232,21 +212,14 @@ const Ylite = () => {
                           <span>2544 review</span>
                         </p>
                       </div>
-                      {/* <!--/.packages-review--> */}
                       <div className="about-btn">
                         <button  className="about-view packages-btn">
                           book now
                         </button>
                       </div>
-                      {/* <!--/.about-btn--> */}
                     </div>
-                    {/* <!--/.single-package-item-txt--> */}
                   </div>
-                  {/* <!--/.single-package-item--> */}
-
                 </div>
-                {/* <!--/.col--> */}
-                
                 <div className="col-md-4 col-sm-6">
                   <div className="single-package-item">
                     <img src="assets/images/packages/p6.jpg" 
@@ -267,7 +240,6 @@ const Ylite = () => {
                           <i className="fa fa-angle-right"></i>  food facilities
                         </p>
                       </div>
-                      {/* <!--/.packages-para--> */}
                       <div className="packages-review">
                         <p>
                           <i className="fa fa-star"></i>
@@ -278,31 +250,20 @@ const Ylite = () => {
                           <span>2544 review</span>
                         </p>
                       </div>
-                      {/* <!--/.packages-review--> */}
                       <div className="about-btn">
                         <button  className="about-view packages-btn">
                           book now
                         </button>
                       </div>
-                      {/* <!--/.about-btn--> */}
                     </div>
-                    {/* <!--/.single-package-item-txt--> */}
                   </div>
-                  {/* <!--/.single-package-item--> */}
-
                 </div>
-                {/* <!--/.col--> */}
-
               </div>
-              {/* <!--/.row--> */}
             </div>
-            {/* <!--/.packages-content--> */}
           </div>
-          {/* <!--/.container--> */}
-          {/* <!--/.packages--> */}
-        {/* <!--packages end--> */}
         </section>
+        </>
     )
 }
 
-export default Ylite
+export default Lite

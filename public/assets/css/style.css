@@ -870,7 +870,8 @@ html,body{
         8. Packages 
 --------------------------------------*/
 .packages{
-    padding:120px 0 90px;
+    padding: 40px 0 90px;
+    background: rgb(255, 255, 255);;
 }
 .packages-content{
     margin-top:65px;
@@ -961,7 +962,7 @@ html,body{
 
 .testemonial{
     position:relative;
-    background: #F90086;
+    background: rgb(0, 126, 243);;
     padding:120px 0;
 }
 
@@ -1411,7 +1412,7 @@ html,body{
 --------------------------------------*/
 .subscribe {
     position: relative;
-    padding: 120px 0;
+    padding: 30px 0;
     background: url(../../assets/images/yellhat-img/yh_balln.jpg)no-repeat center fixed;
     background-size: cover;
     z-index: 1;
@@ -1616,14 +1617,14 @@ html,body{
 }
 
 .foot-icon-bg-1{
-    background: #F90086;
+    background: rgb(0, 126, 243);
 }
 .foot-icon-bg-2{
-    background: #F90086;
+    background: rgb(0, 126, 243);
 }
 .foot-icon-bg-3{
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8938ae+0,c13181+100 */
-    background: #F90086; /* Old browsers */
+    background: rgb(0, 126, 243); /* Old browsers */
     /* background: -webkit-linear-gradient(right, #8938ae 0%, #c13181 100%); */
     /* background: -o-linear-gradient(right, #8938ae 0%, #c13181 100%);
     background: linear-gradient(to right, #8938ae 0%, #c13181 100%); */

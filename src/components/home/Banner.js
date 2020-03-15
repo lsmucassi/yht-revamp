@@ -2,23 +2,23 @@ import React from 'react'
 
 const Banner = () => {
     return (
-        <section id="home" class="about-us">
+        <section id="home" className="about-us">
             {/* <!--about-us start --> */}
-          <div class="container">
-            <div class="about-us-content">
-              <div class="row">
-                <div class="col-sm-12">
-                  <div class="single-about-us">
-                    <div class="about-us-txt">
+          <div className="container">
+            <div className="about-us-content">
+              <div className="row">
+                <div className="col-sm-12">
+                  <div className="single-about-us">
+                    <div className="about-us-txt">
                       <h2>
                         Explore.
                         {/* <br/> */}
                         Dream.
                         {/* <br/> */}
                         Discover. 
-                        <div class="about-btn">
+                        <div className="about-btn">
                         <button onclick="window.location.href='#gallery';" 
-                            class="about-view smooth-menu">
+                            className="about-view smooth-menu">
                           explore now
                         </button>
                       </div>
@@ -31,8 +31,8 @@ const Banner = () => {
                   {/* <!--/.single-about-us--> */}
                 </div>
                 {/* <!--/.col--> */}
-                <div class="col-sm-0">
-                  <div class="single-about-us">
+                <div className="col-sm-0">
+                  <div className="single-about-us">
                     
                   </div>
                   {/* <!--/.single-about-us--> */}

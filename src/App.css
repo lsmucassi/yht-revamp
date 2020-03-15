@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+ 
 }
 
 .App-logo {
@@ -19,4 +20,61 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+
+/* ============================================================================== */
+
+/* section {
+  height: 100%;
+  padding: 2em 0;
+  
+} */
+
+.section1 {
+  padding: 140px 0 90px;
+  background: rgb(0.5, 126, 243);
+  clip-path: polygon(0 0,100% 0,100% 85%,0 100%);
+  padding-bottom: 10%;
+}
+
+.section2 {
+}
+
+.about {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 2em;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2em 0;
+}
+
+.img-wrapper {
+  width: 50%;
+}
+
+.img{
+  /* background: url(../../assets/images/yellhat-img/yh_fall.jpg)no-repeat center; */
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.text-wrapper{
+  width: 100%;
+}
+
+.text {
+  margin-bottom: 1em;
+  color: #fff;
+  font-size: 1.2em;
 }

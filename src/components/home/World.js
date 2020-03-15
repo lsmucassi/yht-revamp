@@ -2,11 +2,11 @@ import React from 'react'
 
 const World = () => {
     return (
-        <section id="gallery" class="gallery">
+        <section id="gallery" className="gallery">
           {/* <!--galley start--> */}
-          <div class="container">
-            <div class="gallery-details">
-              <div class="gallary-header text-center">
+          <div className="container">
+            <div className="gallery-details">
+              <div className="gallary-header text-center">
                 <h2>
                   world destination
                 </h2>
@@ -17,16 +17,16 @@ const World = () => {
                 </p>
               </div>
               {/* <!--/.gallery-header--> */}
-              <div class="gallery-box">
-                <div class="gallery-content">
-                    <div class="filtr-container">
-                      <div class="row">
+              <div className="gallery-box">
+                <div className="gallery-content">
+                    <div className="filtr-container">
+                      <div className="row">
 
-                        <div class="col-md-6">
-                          <div class="filtr-item">
+                        <div className="col-md-6">
+                          <div className="filtr-item">
                           <img src="assets/images/yellhat-img/europe/alex-vasey-3lxrM5yvkcI-unsplash.jpg" 
                                 alt="portfolio image"/>
-                          <div class="item-title">
+                          <div className="item-title">
                             <a href="#">
                               Europe
                             </a>
@@ -38,10 +38,10 @@ const World = () => {
                         </div>
                         {/* <!-- /.col --> */}
 
-                        <div class="col-md-6">
-                          <div class="filtr-item">
+                        <div className="col-md-6">
+                          <div className="filtr-item">
                           <img src="assets/images/yellhat-img/africa/harshil-gudka-kfxEUCTUeyg-unsplash.jpg" alt="portfolio image"/>
-                          <div class="item-title">
+                          <div className="item-title">
                             <a href="#">
                               Africa
                             </a>
@@ -53,10 +53,10 @@ const World = () => {
                         </div>
                         {/* <!-- /.col --> */}
 
-                        <div class="col-md-7">
-                          <div class="filtr-item">
+                        <div className="col-md-7">
+                          <div className="filtr-item">
                           <img src="assets/images/yellhat-img/asia/jason-cooper-iEJVyyevw-U-unsplash.jpg" alt="portfolio image"/>
-                          <div class="item-title">
+                          <div className="item-title">
                             <a href="#">
                               Asia
                             </a>
@@ -68,11 +68,11 @@ const World = () => {
                         </div>
                         {/* <!-- /.col --> */}
 
-                        <div class="col-md-4">
-                          <div class="filtr-item">
+                        <div className="col-md-4">
+                          <div className="filtr-item">
                           <img src="assets/images/yellhat-img/north-america/touann-gatouillat-vergos-dSBJv66Yjlk-unsplash.jpg" 
                                 alt="portfolio image"/>
-                          <div class="item-title">
+                          <div className="item-title">
                             <a href="#">
                               North America
                             </a>
@@ -84,11 +84,11 @@ const World = () => {
                         </div>
                         {/* <!-- /.col --> */}
 
-                        <div class="col-md-5">
-                          <div class="filtr-item">
+                        <div className="col-md-5">
+                          <div className="filtr-item">
                           <img src="assets/images/yellhat-img/south-america/arto-marttinen-6Wt0kG2zK4A-unsplash.jpg" 
                                 alt="portfolio image"/>
-                          <div class="item-title">
+                          <div className="item-title">
                             <a href="#">
                               South America
                             </a>
@@ -100,10 +100,10 @@ const World = () => {
                         </div>
                         {/* <!-- /.col --> */}
 
-                        {/* <!-- <div class="col-md-8">
-                          <div class="filtr-item">
+                        {/* <!-- <div className="col-md-8">
+                          <div className="filtr-item">
                           <img src="assets/images/gallary/g6.jpg" alt="portfolio image"/>
-                          <div class="item-title">
+                          <div className="item-title">
                             <a href="#">
                               turkey
                             </a>

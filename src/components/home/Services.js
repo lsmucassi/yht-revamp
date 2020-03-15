@@ -2,17 +2,17 @@ import React from 'react'
 
 const Services = () => {
     return (
-        <section id="service" class="service">
+        <section id="service" className="service">
           {/* <!--service start--> */}
-          <div class="container">
-            <div class="service-counter text-center">
-              <div class="col-md-4 col-sm-4">
-                <div class="single-service-box">
-                  <div class="service-img">
+          <div className="container">
+            <div className="service-counter text-center">
+              <div className="col-md-4 col-sm-4">
+                <div className="single-service-box">
+                  <div className="service-img">
                     <img src="assets/images/service/s1.png" alt="service-icon" />
                   </div>
                   {/* <!--/.service-img--> */}
-                  <div class="service-content">
+                  <div className="service-content">
                     <h2>
                       <a href="#">
                       amazing tour packages
@@ -26,13 +26,13 @@ const Services = () => {
               </div>
               {/* <!--/.col--> */}
 
-              <div class="col-md-4 col-sm-4">
-                <div class="single-service-box">
-                  <div class="service-img">
+              <div className="col-md-4 col-sm-4">
+                <div className="single-service-box">
+                  <div className="service-img">
                     <img src="assets/images/service/s2.png" alt="service-icon" />
                   </div>
                   {/* <!--/.service-img--> */}
-                  <div class="service-content">
+                  <div classNamee="service-content">
                     <h2>
                       <a href="#">
                         book top class hotel
@@ -46,13 +46,13 @@ const Services = () => {
               </div>
               {/* <!--/.col--> */}
 
-              <div class="col-md-4 col-sm-4">
-                <div class="single-service-box">
-                  <div class="statistics-img">
+              <div className="col-md-4 col-sm-4">
+                <div className="single-service-box">
+                  <div className="statistics-img">
                     <img src="assets/images/service/s3.png" alt="service-icon" />
                   </div>
                   {/* <!--/.service-img--> */}
-                  <div class="service-content">
+                  <div className="service-content">
 
                     <h2>
                       <a href="#">

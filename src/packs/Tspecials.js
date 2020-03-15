@@ -2,10 +2,10 @@ import React from 'react'
 
 const Tspecials = () => {
     return (
-        <section id="pack" class="packages">
+        <section id="pack" className="packages">
         {/* <!--packages start--> */}
-          <div class="container">
-            <div class="text-center">
+          <div className="container">
+            <div className="text-center">
               <h2>
                 2020 Special Travels 
               </h2>
@@ -14,43 +14,43 @@ const Tspecials = () => {
               </p>
             </div>
             {/* <!--/.gallery-header--> */}
-            <div class="packages-content">
-              <div class="row">
+            <div className="packages-content">
+              <div className="row">
 
-                <div class="col-md-4 col-sm-6">
-                  <div class="single-package-item">
+                <div className="col-md-4 col-sm-6">
+                  <div className="single-package-item">
                     <img src="assets/images/packages/p1.jpg" 
                             alt="package-place"/>
-                    <div class="single-package-item-txt">
-                      <h3>italy <span class="pull-right">$499</span></h3>
-                      <div class="packages-para">
+                    <div className="single-package-item-txt">
+                      <h3>italy <span className="pull-right">$499</span></h3>
+                      <div className="packages-para">
                         <p>
                           <span>
-                            <i class="fa fa-angle-right"></i> 5 days 6 nights
+                            <i className="fa fa-angle-right"></i> 5 days 6 nights
                           </span>
-                          <i class="fa fa-angle-right"></i>  5 star accommodation
+                          <i className="fa fa-angle-right"></i>  5 star accommodation
                         </p>
                         <p>
                           <span>
-                            <i class="fa fa-angle-right"></i>  transportation
+                            <i className="fa fa-angle-right"></i>  transportation
                           </span>
-                          <i class="fa fa-angle-right"></i>  food facilities
+                          <i className="fa fa-angle-right"></i>  food facilities
                         </p>
                       </div>
                       {/* <!--/.packages-para--> */}
-                      <div class="packages-review">
+                      <div className="packages-review">
                         <p>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
                           <span>2544 review</span>
                         </p>
                       </div>
                       {/* <!--/.packages-review--> */}
-                      <div class="about-btn">
-                        <button  class="about-view packages-btn">
+                      <div className="about-btn">
+                        <button  className="about-view packages-btn">
                           book now
                         </button>
                       </div>
@@ -63,40 +63,40 @@ const Tspecials = () => {
                 </div>
                 {/* <!--/.col--> */}
 
-                <div class="col-md-4 col-sm-6">
-                  <div class="single-package-item">
+                <div className="col-md-4 col-sm-6">
+                  <div className="single-package-item">
                     <img src="assets/images/packages/p2.jpg" 
                           alt="package-place"/>
-                    <div class="single-package-item-txt">
-                      <h3>england <span class="pull-right">$1499</span></h3>
-                      <div class="packages-para">
+                    <div className="single-package-item-txt">
+                      <h3>england <span className="pull-right">$1499</span></h3>
+                      <div className="packages-para">
                         <p>
                           <span>
-                            <i class="fa fa-angle-right"></i> 5 daays 6 nights
+                            <i className="fa fa-angle-right"></i> 5 daays 6 nights
                           </span>
-                          <i class="fa fa-angle-right"></i>  5 star accommodation
+                          <i className="fa fa-angle-right"></i>  5 star accommodation
                         </p>
                         <p>
                           <span>
-                            <i class="fa fa-angle-right"></i>  transportation
+                            <i className="fa fa-angle-right"></i>  transportation
                           </span>
-                          <i class="fa fa-angle-right"></i>  food facilities
+                          <i className="fa fa-angle-right"></i>  food facilities
                         </p>
                       </div>
                       {/* <!--/.packages-para--> */}
-                      <div class="packages-review">
+                      <div className="packages-review">
                         <p>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
                           <span>2544 review</span>
                         </p>
                       </div>
                       {/* <!--/.packages-review--> */}
-                      <div class="about-btn">
-                        <button  class="about-view packages-btn">
+                      <div className="about-btn">
+                        <button  className="about-view packages-btn">
                           book now
                         </button>
                       </div>
@@ -109,40 +109,40 @@ const Tspecials = () => {
                 </div>
                 {/* <!--/.col--> */}
                 
-                <div class="col-md-4 col-sm-6">
-                  <div class="single-package-item">
+                <div className="col-md-4 col-sm-6">
+                  <div className="single-package-item">
                     <img src="assets/images/packages/p3.jpg" 
                           alt="package-place"/>
-                    <div class="single-package-item-txt">
-                      <h3>france <span class="pull-right">$1199</span></h3>
-                      <div class="packages-para">
+                    <div className="single-package-item-txt">
+                      <h3>france <span className="pull-right">$1199</span></h3>
+                      <div className="packages-para">
                         <p>
                           <span>
-                            <i class="fa fa-angle-right"></i> 5 daays 6 nights
+                            <i className="fa fa-angle-right"></i> 5 daays 6 nights
                           </span>
-                          <i class="fa fa-angle-right"></i>  5 star accomodation
+                          <i className="fa fa-angle-right"></i>  5 star accomodation
                         </p>
                         <p>
                           <span>
-                            <i class="fa fa-angle-right"></i>  transportation
+                            <i className="fa fa-angle-right"></i>  transportation
                           </span>
-                          <i class="fa fa-angle-right"></i>  food facilities
+                          <i className="fa fa-angle-right"></i>  food facilities
                         </p>
                       </div>
                       {/* <!--/.packages-para--> */}
-                      <div class="packages-review">
+                      <div className="packages-review">
                         <p>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
                           <span>2544 review</span>
                         </p>
                       </div>
                       {/* <!--/.packages-review--> */}
-                      <div class="about-btn">
-                        <button  class="about-view packages-btn">
+                      <div className="about-btn">
+                        <button  className="about-view packages-btn">
                           book now
                         </button>
                       </div>
@@ -155,40 +155,40 @@ const Tspecials = () => {
                 </div>
                 {/* <!--/.col--> */}
                 
-                <div class="col-md-4 col-sm-6">
-                  <div class="single-package-item">
+                <div className="col-md-4 col-sm-6">
+                  <div className="single-package-item">
                     <img src="assets/images/packages/p4.jpg" 
                           alt="package-place"/>
-                    <div class="single-package-item-txt">
-                      <h3>india <span class="pull-right">$799</span></h3>
-                      <div class="packages-para">
+                    <div className="single-package-item-txt">
+                      <h3>india <span className="pull-right">$799</span></h3>
+                      <div className="packages-para">
                         <p>
                           <span>
-                            <i class="fa fa-angle-right"></i> 5 daays 6 nights
+                            <i className="fa fa-angle-right"></i> 5 daays 6 nights
                           </span>
-                          <i class="fa fa-angle-right"></i>  5 star accomodation
+                          <i className="fa fa-angle-right"></i>  5 star accomodation
                         </p>
                         <p>
                           <span>
-                            <i class="fa fa-angle-right"></i>  transportation
+                            <i className="fa fa-angle-right"></i>  transportation
                           </span>
-                          <i class="fa fa-angle-right"></i>  food facilities
+                          <i className="fa fa-angle-right"></i>  food facilities
                         </p>
                       </div>
                       {/* <!--/.packages-para--> */}
-                      <div class="packages-review">
+                      <div className="packages-review">
                         <p>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
                           <span>2544 review</span>
                         </p>
                       </div>
                       {/* <!--/.packages-review--> */}
-                      <div class="about-btn">
-                        <button  class="about-view packages-btn">
+                      <div className="about-btn">
+                        <button  className="about-view packages-btn">
                           book now
                         </button>
                       </div>
@@ -201,40 +201,40 @@ const Tspecials = () => {
                 </div>
                 {/* <!--/.col--> */}
                 
-                <div class="col-md-4 col-sm-6">
-                  <div class="single-package-item">
+                <div className="col-md-4 col-sm-6">
+                  <div className="single-package-item">
                     <img src="assets/images/packages/p5.jpg" 
                           alt="package-place"/>
-                    <div class="single-package-item-txt">
-                      <h3>spain <span class="pull-right">$999</span></h3>
-                      <div class="packages-para">
+                    <div className="single-package-item-txt">
+                      <h3>spain <span className="pull-right">$999</span></h3>
+                      <div className="packages-para">
                         <p>
                           <span>
-                            <i class="fa fa-angle-right"></i> 5 daays 6 nights
+                            <i className="fa fa-angle-right"></i> 5 daays 6 nights
                           </span>
-                          <i class="fa fa-angle-right"></i>  5 star accomodation
+                          <i className="fa fa-angle-right"></i>  5 star accomodation
                         </p>
                         <p>
                           <span>
-                            <i class="fa fa-angle-right"></i>  transportation
+                            <i className="fa fa-angle-right"></i>  transportation
                           </span>
-                          <i class="fa fa-angle-right"></i>  food facilities
+                          <i className="fa fa-angle-right"></i>  food facilities
                         </p>
                       </div>
                       {/* <!--/.packages-para--> */}
-                      <div class="packages-review">
+                      <div className="packages-review">
                         <p>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
                           <span>2544 review</span>
                         </p>
                       </div>
                       {/* <!--/.packages-review--> */}
-                      <div class="about-btn">
-                        <button  class="about-view packages-btn">
+                      <div className="about-btn">
+                        <button  className="about-view packages-btn">
                           book now
                         </button>
                       </div>
@@ -247,40 +247,40 @@ const Tspecials = () => {
                 </div>
                 {/* <!--/.col--> */}
                 
-                <div class="col-md-4 col-sm-6">
-                  <div class="single-package-item">
+                <div className="col-md-4 col-sm-6">
+                  <div className="single-package-item">
                     <img src="assets/images/packages/p6.jpg" 
                           alt="package-place"/>
-                    <div class="single-package-item-txt">
-                      <h3>thailand <span class="pull-right">$799</span></h3>
-                      <div class="packages-para">
+                    <div className="single-package-item-txt">
+                      <h3>thailand <span className="pull-right">$799</span></h3>
+                      <div className="packages-para">
                         <p>
                           <span>
-                            <i class="fa fa-angle-right"></i> 5 daays 6 nights
+                            <i className="fa fa-angle-right"></i> 5 daays 6 nights
                           </span>
-                          <i class="fa fa-angle-right"></i>  5 star accomodation
+                          <i className="fa fa-angle-right"></i>  5 star accomodation
                         </p>
                         <p>
                           <span>
-                            <i class="fa fa-angle-right"></i>  transportation
+                            <i className="fa fa-angle-right"></i>  transportation
                           </span>
-                          <i class="fa fa-angle-right"></i>  food facilities
+                          <i className="fa fa-angle-right"></i>  food facilities
                         </p>
                       </div>
                       {/* <!--/.packages-para--> */}
-                      <div class="packages-review">
+                      <div className="packages-review">
                         <p>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
+                          <i className="fa fa-star"></i>
                           <span>2544 review</span>
                         </p>
                       </div>
                       {/* <!--/.packages-review--> */}
-                      <div class="about-btn">
-                        <button  class="about-view packages-btn">
+                      <div className="about-btn">
+                        <button  className="about-view packages-btn">
                           book now
                         </button>
                       </div>

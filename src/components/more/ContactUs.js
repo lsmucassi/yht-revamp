@@ -81,7 +81,7 @@ const ContactUs = () => {
                     <div class="col-sm-4">
                         <div class="single-special-offer-one">
                             <div class="single-special-offer-bg-one">
-                                <img src="./assets/images/offer/offer-shape.png" alt="offer-shape">
+                                <img src="./assets/images/offer/offer-shape.png" alt="offer-shape" />
                             </div>
                             {/* <!--/.single-special-offer-bg--> */}
                             <div class="single-special-shape-txt-one">
@@ -101,7 +101,8 @@ const ContactUs = () => {
         </div>
         {/* <!--/.container--> */}
         {/* <!--/.special-offer end-->
-    <!--special-offer end--> */}
+        <!--special-offer end--> */}
+    
     </section>
     )
 }
